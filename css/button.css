@@ -16,7 +16,7 @@
 .button.secondary{
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: center;
     background: unset;
     border: 2px solid var(--dark);
     color: var(--dark);
