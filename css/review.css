@@ -1,0 +1,55 @@
+.review{
+    padding: 24px;
+    height: auto;    
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    border-radius: 24px;
+    border: 2px solid var(--white);
+    background: rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(39.7657px);
+    margin-bottom: 80px;
+}
+
+.review img{
+    border-radius: 50%;
+    margin: 0 auto;
+    width: 64px;
+    height: 64px;
+}
+
+.review-text{
+    font: var(--body1secondary);
+    color: var(--purple);
+    text-align: start;
+}
+
+.review-contact{
+    font: var(--caption);
+    color: var(--purple);
+    text-align: start;
+}
+
+@media screen and (min-width: 768px) {
+    .review{
+        border: 1px solid var(--white);
+        padding: 80px;
+    }
+
+    .review img{
+        width: 80px;
+        height: 80px;
+    }
+
+    .review-text{
+        font: var(--headline4secondary);
+        color: var(--purple);
+        text-align: center;
+        font-weight: 700;
+    }
+    .review-contact{
+        font: var(--headline5);
+        text-align: center;
+    }
+}

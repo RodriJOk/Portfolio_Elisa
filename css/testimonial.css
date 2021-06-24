@@ -1,0 +1,20 @@
+.testimonial{
+    color: var(--purple);
+    padding-bottom: 200px;
+}
+
+.testimonial-description{
+    font: var(--headline4secondary);
+    text-align: center;
+}
+
+.testimonial-subdescription{
+    font: var(--headline5);
+    text-align: center;
+}
+
+.testimonial img{
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+}

@@ -1,0 +1,28 @@
+.menu{
+    display: none;
+}
+
+.menu ul{
+    display: flex;
+    list-style: none;
+    gap: 40px;
+}
+
+.menu ul a{
+    text-decoration: none;
+    color: var(--dark);
+    font: var(--button);
+    text-transform: uppercase;
+    opacity: 0.5;
+}
+
+.menu ul a.isactive{
+    color: var(--purple);
+    opacity: 1;
+}
+
+@media screen and (min-width:768px) {
+    .menu{
+        display: block;
+    }
+}

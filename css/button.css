@@ -1,0 +1,24 @@
+.button{
+    border: 2px solid var(--dark);
+    background: var(--green);
+    color: var(--dark);
+    font: var(--button); 
+    padding-inline-start: 24px;
+    padding-inline-end: 24px;
+    padding-block-start: 13px;
+    padding-block-end: 13px;
+    text-transform: uppercase;
+    border-radius: 30px;
+    text-decoration: none;
+    text-align: center;
+}
+
+.button.secondary{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background: unset;
+    border: 2px solid var(--dark);
+    color: var(--dark);
+    gap: 5px;
+}

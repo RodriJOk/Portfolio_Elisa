@@ -1,0 +1,64 @@
+.hero{
+    padding-block-start: 16px;
+    padding-block-end: 200px;
+    /* font-family: 'Poppins', sans-serif; */
+}
+
+.hero-description{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.hero-social{
+    padding-block-end: 24px;
+}
+
+.hero-image{
+    text-align: center;
+}
+
+.hero-image img{
+    max-inline-size: 100%;
+    block-size: auto;
+}
+
+.hero-description__title{
+    font: var(--headline3);
+    margin: 0;
+    display: block;
+}
+
+.hero-description__name{
+    font: var(--headline2);
+    display: block;
+}
+
+.hero-description__profesion{
+    font: var(--body1);
+}
+
+@media screen and (min-width: 768px) {
+    .hero{
+        display: flex;
+        gap: 32px;
+    }
+
+    .hero-image{
+        order: 2;
+        text-align: end;
+        flex: 1;
+    }
+
+    .hero-description{
+        order: 1;
+        max-inline-size: 450px;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .hero-image img{
+        inline-size: 500px;
+        block-size: 504px;
+    }
+}

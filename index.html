@@ -4,10 +4,157 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="index.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oxygen:wght@300;400;700&display=swap" rel="stylesheet">
+    <link href="./css/index.css" rel="stylesheet">
     <title>Portfolio Elisa</title>
 </head>
 <body>
-    
+    <header class="header">
+        <div class="wrapper">
+            <div class="header-content">
+                <img src="./images/LOGO.png" alt="Logo" width="70">
+                <nav class="menu" aria-label="main-navigation">
+                    <ul>
+                        <li>
+                            <a class="isactive" href="#main">Hola</a>
+                        </li>
+                        <li>
+                            <a href="#proyectos">Proyectos</a>
+                        </li>
+                        <li>    
+                            <a href="#contact">Hablemos</a>
+                        </li>
+                    </ul>
+                </nav>
+                <button class="button">Curr&iacute;culum</button>
+            </div>
+        </div>
+    </header>
+    <div class="wrapper" id="main">
+        <section aria-label="main" class="hero">
+            <div class="hero-image">
+                <img src="./images/elisa.png" alt="Elisa" width="338" height="330">   
+            </div>
+            <div class="hero-description">
+                <section class="hero-description__welcome">
+                    <span class="hero-description__title">¡Hola a todos!</span>
+                    <span class="hero-description__name">Soy Elisa</span>
+                </section>
+                <p class="hero-description__profesion">Una Frontend Developer que le encanta implementar diseños que inspiran y atraen a las personas</p>
+                <div class="social">
+                    <a class="button-icon" href="#"><img src="./icons/icon-phone.svg" alt="Phone"></a>
+                    <a class="button-icon" href="#"><img src="./icons/email.svg" alt="Email"></a>
+                    <a class="button-icon" href="#"><img src="./icons/instagram.svg" alt="Instagram"></a>
+                    <a class="button-icon" href="#"><img src="./icons/twitter.svg" alt="Twitter"></a>
+                </div>
+            </div>
+        </section>
+
+        <section class="testimonial">
+            <p class="testimonial-description">A lo largo de mi carrera como Frontend, he tenido el privilegio de trabajar en proyectos retadores e incre&iacute;bles</p>
+            <p class="testimonial-subdescription">Aqui hay algunos que me gustaria compartir</p>
+            <img src="./icons/arrow-down.svg" alt="Icon " width="80" height="80">
+        </section>
+
+        <section class="proyects" id="proyectos">
+            <div class="proyects-image">
+                <img src="./images/website.png" alt="Website" class="proyect-image__website">
+            </div>
+            <div class="proyects-description">
+                <a class="title" target="_blank" href="#">LeonidasEsteban</a>
+                <p>Accede a más de 120 proyectos que te ayudarán a mejorar 
+                    tus habilidades como desarrollador Front-End.</p>
+                <div class="proyects-buttons">
+                    <a target="_blank" href="#" class="button">Ver Proyecto</a>
+                    <a target="_blank" href="#" class="button secondary"> <img src="./icons/gihub.svg"><span>Ver Codigo</span></a>
+                </div>
+            </div>
+        </section>
+
+        <main class="review">
+            <img src="./images/leonidasEsteban.png" alt="Leonidas Esteban">
+            <p class="review-text">"Elisa ha sido de gran ayuda para acelerar ciertos esfuerzos de desarrollo. Lo que nos hubiera llevado 6 meses solo les llevó 1,5 meses ".</p>
+            <p class="review-contact">LEONIDAS ESTEBAN / COFUNDADOR Y CEO LEONIDASESTEBAN.COM</p>
+        </main>
+
+        <section class="proyects">
+            <div class="proyects-image">
+                <img src="./images/📱 iPad.png" alt="MARVOL" class="proyect-image__marvol">
+            </div>
+            <div class="proyects-description">
+                <a class="title" target="_blank" href="#">MARVOL</a>
+                <p>Es el sitio oficial de Marvol Entertainment. Explore películas, personajes, cómics, programas de televisión, videos y más oficiales de Marvol.</p>
+                <div class="proyects-buttons">
+                    <a target="_blank" href="#" class="button">Ver Proyecto</a>
+                    <a target="_blank" href="#" class="button secondary"> <img src="./icons/gihub.svg"><span>Ver Codigo</span></a>
+                </div>
+            </div>
+        </section>
+
+        <main class="review">
+            <img src="./images/jasonLopez.png" alt="Jason Lopez">
+            <p class="review-text">"Elisa ha superado mis expectativas desde el diseño hasta el desarrollo".      </p>
+            <p class="review-contact">JASON LOPEZ / COFUNDADOR Y CEO MARVOL</p>
+        </main>
+
+        <section class="proyects">
+            <div class="proyects-image">
+                <img src="./images/📱 Iphone X.png" alt="Website">
+            </div>
+            <div class="proyects-description">
+                <a class="title" target="_blank" href="#">NETNET</a>
+                <p>Películas y series ilimitadas y mucho más.
+                    Disfruta donde quieras. Cancela cuando quieras.</p>
+                <div class="proyects-buttons">
+                    <a target="_blank" href="#" class="button">Ver Proyecto</a>
+                    <a target="_blank" href="#" class="button secondary"> <img src="./icons/gihub.svg"><span>Ver Codigo</span></a>
+                </div>
+            </div>
+        </section>
+
+        <main class="review">
+            <img src="./images/marcosCortez.png" alt="Marcos Cortez">
+            <p class="review-text">"Por primera vez en la historia de nuestra empresa, aparecimos en todas las plataformas en las que trabajamos".</p>
+            <p class="review-contact">MARCO CORTEZ / NETNET</p>
+        </main>
+
+        <form action="" method="POST" class="form">
+            <div class="form-content">
+                <h1 class="title">Hablemos</h1>
+                <p>Si está interesado en trabajar conmigo en su próximo proyecto, 
+                    no dude en ponerse en contacto conmigo.</p>
+                <label for="form-name">Nombre Completo</label>
+                <input required name="name" id="form-name" type="text" placeholder="Juan">
+        
+                <label for="form-email">Direccion de Email</label>
+                <input required name="name" id="form-email" type="email" placeholder="juan@email.com">
+        
+                <label for="form-message">Deja aqui tu mensaje</label>
+                <textarea required name="message" id="form-message" cols="30" rows="7" placeholder="Mensaje"></textarea>
+                
+                <button type="submit" class="button">Enviar mensaje</button>
+            </div>
+        </form>
+
+        <footer class="footer" id="contact">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <img src="./images/LOGO.png">
+                </div>
+                <div class="social">
+                    <a class="button-icon" href="#"><img src="./icons/icon-phone.svg" alt="Phone"></a>
+                    <a class="button-icon" href="#"><img src="./icons/email.svg" alt="Email"></a>
+                    <a class="button-icon" href="#"><img src="./icons/instagram.svg" alt="Instagram"></a>
+                    <a class="button-icon" href="#"><img src="./icons/twitter.svg" alt="Twitter"></a>
+                </div>
+                <div class="footer-copyright">
+                    <p>Hecho con el ❤ por Elisa</p>
+                    <p>Copyright 2021 - Todos los derechos reservados. </p>
+                </div>
+            </div>
+        </footer>
+    </div>
 </body>
 </html>
